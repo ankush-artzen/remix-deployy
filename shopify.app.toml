@@ -3,7 +3,7 @@
 client_id = "d7195a6d99bad20dcaadf71a53c3b811"
 name = "remix-deployy"
 handle = "remix-deployy"
-application_url = "https://warehouse-calibration-idaho-frequency.trycloudflare.com"
+application_url = "https://remix-deployy.vercel.app"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://warehouse-calibration-idaho-frequency.trycloudflare.com/auth/callback",
-  "https://warehouse-calibration-idaho-frequency.trycloudflare.com/auth/shopify/callback",
-  "https://warehouse-calibration-idaho-frequency.trycloudflare.com/api/auth/callback"
+  "https://remix-deployy.vercel.app/auth/callback",
+  "https://remix-deployy.vercel.app/auth/shopify/callback",
+  "https://remix-deployy.vercel.app/api/auth/callback"
 ]
 
 [webhooks]
