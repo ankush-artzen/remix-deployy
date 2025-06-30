@@ -1,7 +1,7 @@
 {
   "name": "remix-deployy",
   "private": true,
-"scripts": {
+  "scripts": {
     "build": "remix vite:build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
