@@ -111,12 +111,11 @@ export default function Index() {
   const generateProduct = () => fetcher.submit({}, { method: "POST" });
 
   return (
-    <Page>
-      <TitleBar title="Remix app template">
-        <button variant="primary" onClick={generateProduct}>
-          Generate a product
-        </button>
-      </TitleBar>
+    <Page title="Remix app template">
+    <InlineStack gap="400">
+      <Button url="/new_page">➕ Go to New Page</Button>
+    </InlineStack>
+  
       <BlockStack gap="500">
         <Layout>
           <Layout.Section>
