@@ -3,7 +3,7 @@
 client_id = "d7195a6d99bad20dcaadf71a53c3b811"
 name = "remix-deployy"
 handle = "remix-deployy"
-application_url = "https://becoming-anti-seventh-annie.trycloudflare.com"
+application_url = "https://chronic-parents-andy-ci.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://becoming-anti-seventh-annie.trycloudflare.com/auth/callback",
-  "https://becoming-anti-seventh-annie.trycloudflare.com/auth/shopify/callback",
-  "https://becoming-anti-seventh-annie.trycloudflare.com/api/auth/callback"
+  "https://chronic-parents-andy-ci.trycloudflare.com/auth/callback",
+  "https://chronic-parents-andy-ci.trycloudflare.com/auth/shopify/callback",
+  "https://chronic-parents-andy-ci.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
